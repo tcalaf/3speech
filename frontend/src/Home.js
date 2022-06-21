@@ -324,7 +324,7 @@ export default function Home({
                     Tip Amount: {Web3.utils.fromWei(post.tipAmount, "ether")}{" "}
                     ETH
                   </div>
-                  {account === post.author.toLowerCase() ? null : (
+                  {account.toLowerCase() === post.author.toLowerCase() ? null : (
                     <div className="d-inline float-end">
                       <Button
                         onClick={() => tipPostOwner(post.id)}

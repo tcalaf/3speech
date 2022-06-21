@@ -1,4 +1,4 @@
-import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link, HashRouter, Routes, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import FreeSpeech from "./contracts/FreeSpeech.json";
 import { Spinner, Navbar, Nav, Button, Container } from "react-bootstrap";
@@ -211,7 +211,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <>
           <Navbar expand="lg" bg="secondary" variant="dark">
@@ -352,7 +352,7 @@ function App() {
           )}
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
