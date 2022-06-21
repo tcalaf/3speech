@@ -1,6 +1,6 @@
 import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import FreeSpeech from "contracts/FreeSpeech.json";
+import FreeSpeech from "./contracts/FreeSpeech.json";
 import { Spinner, Navbar, Nav, Button, Container } from "react-bootstrap";
 import logo from "./logo.png";
 import "./App.css";
