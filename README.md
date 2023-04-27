@@ -9,7 +9,7 @@ I have thus developed a decentralized social network, in order to address these 
 Solution is based on decentralized P2P networks:  
 Backend (Solidity) - runs on Ethereum Blockchain  
 Frontend (React) - runs on IPFS networks  
-Database - Soldity (for small data; e.g. users, posts, reports) and IPFS (for big data; e.g. posts' content)  
+Database - Blockchain (for small data; e.g. users, posts, reports) and IPFS (for big data; e.g. posts' content)  
 
 ![image](https://user-images.githubusercontent.com/58344450/197244155-d44208e6-0ccb-4544-9798-94de5632d527.png)
 
